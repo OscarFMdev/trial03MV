@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 main {
-    padding: 3%;
+    height: 100vh;
     background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ),url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
-    background-size: cover;
+    padding: 3%;
+    background-size:cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -51,7 +52,7 @@ label{
     margin-bottom: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#recommendation-section {
+#recommendation-section, #improve-section {
     color: white;
 }
 
@@ -64,7 +65,16 @@ label{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.radio {
-    display: flex;
-    flex-direction: column;
+#submit {
+    background-color: green;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+#suggestions-section {
+    width: 100%;
 }
